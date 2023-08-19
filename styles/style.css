@@ -508,6 +508,22 @@ footer {
     width: 40%;
 }
 /* CONTACT */
+#contactform {
+    max-width: 1200px;
+    margin: auto;
+}
+#contactform h2 {
+    font-family:'Ubuntu', sans-serif;
+    color: #364F6B;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: -17px;
+}
+#contactcontainer {
+    background-color: #364F6B;
+    padding: 2%;
+}
 #form {
     display: flex;
     flex-direction: column;
@@ -515,16 +531,29 @@ footer {
 label {
     display: flex;
     flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    color: #E5E7EB;
+    font-size: 3vh;
 }
 input, textarea {
   padding: 15px;
   border: 1px solid gray;
   border-radius: var(--border-radius);
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 3vh;
+  background-color: #E5E7EB;
 }
 #contactbutton {
     background-color: #FCE38A;
     color: #364F6B;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 3vh;
+    max-width: fit-content;
+    padding: 10px;
     border: none;
+    border-radius: 20px;
+    align-self: center;
+    margin: 10px;
 }
 #contactbutton:hover {
     background-color:#3882F6;
