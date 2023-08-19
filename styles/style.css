@@ -43,6 +43,7 @@ nav {
         }
             #contactnav {
                 background-color: #FCE38A;
+                color: #364F6B;
                 border: none;
                 font-size: inherit;
                 font-family: inherit;
@@ -177,13 +178,14 @@ nav {
             }
             .splashleft p {
                 font-family:'Nanum Gothic', sans-serif;
-                font-size: 2vh;
+                font-size: 3vh;
                 color: #E5E7EB;
                 padding-top: 32px;
                 padding-bottom: 32px;
             }
             .splashcontact {
                 background-color: #FCE38A;
+                color: #364F6B;
                 font-family:'Ubuntu', sans-serif;
                 font-size: 3vh;
                 max-width: fit-content;
@@ -248,7 +250,7 @@ nav {
 .overviewcontainer p {
     color: #364F6B;
     font-family:'Nanum Gothic', sans-serif;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 /* remove padding if below 300px width */
 @media (max-width:300px) {
@@ -308,7 +310,7 @@ nav {
 }
 .whyuscontainer p {
     font-family:'Nanum Gothic', sans-serif;
-    font-size: 2vh;
+    font-size: 3vh;
     padding: 1rem;
 }
 /* ACTION */
@@ -336,7 +338,7 @@ nav {
         }
         .actioncontainer p {
             font-family:'Nanum Gothic', sans-serif;
-            font-size: 2vh;
+            font-size: 3vh;
         }
         #actionbutton {
             background-color:#3882F6;
