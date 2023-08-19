@@ -503,3 +503,8 @@ footer {
     height: auto;
     width: 40%;
 }
+/* CONTACT */
+#contactform {
+    margin: auto;
+    height: auto;
+}
