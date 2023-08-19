@@ -467,13 +467,15 @@ footer {
     align-items: center;
     gap: 5%;
 }
+#aboutpone {
+    margin-bottom: 10px;
+}
 #anlogo {
     height: auto;
     max-width: 100%;
 }
 #founders {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    display: flex;
     gap: 20px;
 }
 @media (max-width:935px) {
