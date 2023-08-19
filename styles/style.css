@@ -505,6 +505,6 @@ footer {
 }
 /* CONTACT */
 #contactform {
-    margin: auto;
-    height: auto;
+    display: flex;
+    justify-content: center;
 }
