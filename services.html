@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Menu icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Overview icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet"/>
+    <title>Anchor Networks Services</title>
+</head>
+<body>
+    <nav>
+        <div class="leftnav">
+            <a href="index.html"><img class="logo" src="images/logo.svg" alt="Anchor Networks Logo"/></a>
+        </div>
+        
+        <ul class="navlinks">
+            <li id="servicesnav"><a href="services.html">services</a></li>
+            <li id="aboutnav"><a href="about.html">about</a></li>
+            <li><button id="contactnav"><a href="contact.html">contact</a></button></li>
+        </ul>
+        <div class="dropdown" tabindex="0">
+            <input type="checkbox" id="dropdown"/>
+            <label for="dropdown" class="dropdownbutton">
+                <span class="material-symbols-outlined">menu</span>
+            </label>
+            <ul class="dropdowncontent">
+                <li><a href="services.html">services</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="servicespage">
+            <div id="servicespagecontainer">
+                <h2 id="servicestitle">Services</h2>
+                <div class="servicespageitem layoutleft" id="servicesautomation">
+                    <div class="servicesimagecontainer"><img class="servicesimage" src="images/steam.png" alt="Steamboat Graphic"/></div>
+                    <article class="servicestext">
+                        <h3>Automation</h3>
+                        <p>We are proud to offer cutting-edge automation services that revolutionize the way businesses handle onboarding, 
+                            offboarding, and mobile device management. Our innovative solutions harness the power of technology to enhance efficiency, 
+                            reduce human error, and free up valuable resources for your company's growth.</p>
+                    </article>
+                </div>
+                <div class="servicespageitem layoutright" id="servicescompliance">
+                    <article class="servicestext">
+                        <h3>Compliance</h3>
+                        <p>Our specialized services are designed to empower your business with the knowledge and tools needed to navigate complex industry regulations seamlessly. 
+                            With a deep understanding of the unique challenges faced by healthcare and ABA sectors, we offer comprehensive compliance solutions that mitigate risks and streamline operations.</p>
+                    </article>
+                    <div class="servicesimagecontainer"><img class="servicesimage" src="images/helm.png" alt="Helm Graphic"/></div>
+                </div>
+                <div class="servicespageitem layoutleft" id="servicessecurity">
+                    <div class="servicesimagecontainer"><img class="servicesimage" src="images/lh.png" alt="Lighthouse Graphic"/></div>
+                    <article class="servicestext">
+                        <h3>Security</h3>
+                        <p>In today's digitally interconnected world, safeguarding your sensitive data and systems is non-negotiable, and our dedicated team is here to ensure your 
+                            organization remains one step ahead of potential threats. Backed by years of industry expertise, we offer a wide array of IT security services designed to fortify your defenses and provide you with peace of mind.</p>
+                    </article>
+                </div>
+                <div class="servicespageitem layoutright" id="servicessupport">
+                    <article class="servicestext">
+                        <h3>Support</h3>
+                        <p>At Anchor Networks, delivering exceptional customer service and support isn't just a promise; it's at the core of everything we do. 
+                            We understand that technology challenges can disrupt your business operations and impact your bottom line, which is why we are dedicated 
+                            to providing unparalleled assistance whenever you need it. Our customer-centric approach means that you're never alone in your technology 
+                            journey – whether you're facing a minor hiccup or a major crisis, our team is here to guide you every step of the way.</p>
+                        </article>
+                    <div class="servicesimagecontainer"><img class="servicesimage" src="images/lp.png" alt="Life Preserver Graphic"/></div>
+                </div>
+            </div>
+        </section>
+        <!--Action Section-->
+        <section class="action">
+            <div class="actioncontainer">
+                <div class="actiontext">
+                    <h3 class="actiontitle">Ready to get started?</h3>
+                    <p>We provide managed services that keep your business safe, secure, and compliant.</p>
+                </div>
+                <button id="actionbutton"><a href="contact.html">Contact Us</a></button>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>Copyright © 2023 Anchor Networks</p>
+    </footer>
+</body>
+</html>
