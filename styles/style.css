@@ -508,7 +508,25 @@ footer {
     width: 40%;
 }
 /* CONTACT */
-#contactform {
+#form {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+label {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: var(--border-radius);
+}
+#contactbutton {
+    background-color: #FCE38A;
+    color: #364F6B;
+    border: none;
+}
+#contactbutton:hover {
+    background-color:#3882F6;
+    color: #E5E7EB;
 }

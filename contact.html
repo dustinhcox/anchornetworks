@@ -39,12 +39,34 @@
     </nav>
     <main>
         <section id="contactform">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdInpjGDNEd6boLCOovIPFiAymUJJZ3fh6_uo7I8i0s7Ixulg/viewform?embedded=true" width="640" height="346" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <h2>Contact</h2>
+            <div id="contactcontainer">
+                <form id="form">
+                    <label for="name">
+                      Name:
+                      <input type="text" name="name" id="name" required />
+                    </label>
+                    <label for="email">
+                      Email:
+                      <input type="text" name="email" id="email" required />
+                    </label>
+                    <label for="company">
+                      Company:
+                      <input type="text" name="company" id="company" required />
+                    </label>
+                    <label for="message">
+                      Message:
+                      <textarea name="message" id="message" rows="8" required></textarea>
+                    </label>
+                    <button type="submit" id="contactbutton">Submit</button>
+                  </form>
+            </div>
         </section>
     </main>
     <!--Footer-->
     <footer>
             <p>Copyright © 2023 Anchor Networks</p>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
