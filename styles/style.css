@@ -538,10 +538,16 @@ footer {
     margin: auto;
     background-color: #E5E7EB;
     border-radius: 20px;
+    padding: 2%;
+}
+#directimagediv {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
 }
 #directimage {
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
 }
 #directright {
     color:#364F6B;
@@ -550,6 +556,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+#directright img {
+    width: 25%;
 }
 #form {
     display: flex;
@@ -564,8 +573,7 @@ label {
 }
 input, textarea {
   padding: 15px;
-  border: 1px solid gray;
-  border-radius: var(--border-radius);
+  border: none;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 3vh;
   background-color: #E5E7EB;
