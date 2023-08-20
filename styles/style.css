@@ -157,6 +157,12 @@ nav {
             #abouttop {
                 flex-wrap: wrap;
             }
+            #directcontact {
+                flex-wrap: wrap;
+            }
+            #directright {
+                text-align: center;
+            }
         }
         /* fade-in animation */
         @keyframes fadein {
@@ -524,6 +530,25 @@ footer {
     background-color: #364F6B;
     padding: 2%;
 }
+#directcontact {
+    display: flex;
+    height: auto;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+}
+#directimage {
+    height: auto;
+    max-width: 100%;
+}
+#directright {
+    color: #E5E7EB;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 #form {
     display: flex;
     flex-direction: column;
@@ -558,4 +583,12 @@ input, textarea {
 #contactbutton:hover {
     background-color:#3882F6;
     color: #E5E7EB;
+}
+@media (max-width:450px) {
+    #contactform h2 {
+        display: none;
+    }
+    #directright {
+        font-size: 15px;
+    }
 }
